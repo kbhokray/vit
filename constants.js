@@ -15,11 +15,11 @@ let CONFIG = () => {
       };
     case (ENV.PROD):
       return {
-        URL_DB: 'mongodb://admin:password123@ds161653.mlab.com:61653/dkyc'
+        URL_DB: 'mongodb://admin:password123@ds125392.mlab.com:25392/vit'
       };
     default:
       return {
-        URL_DB: 'mongodb://localhost/recruitment', //'mongodb://admin:admin@ds219040.mlab.com:19040/blockport'
+        URL_DB: 'mongodb://localhost/recruitment', //'mongodb://admin:password123@ds125392.mlab.com:25392/vit'
       }
   }
 }
